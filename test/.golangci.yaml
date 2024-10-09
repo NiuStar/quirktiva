@@ -1,0 +1,14 @@
+linters:
+  disable-all: true
+  enable:
+    - gofumpt
+    - govet
+    - gci
+    - staticcheck
+
+linters-settings:
+  gci:
+    sections:
+      - standard
+      - prefix(github.com/yaling888/quirktiva)
+      - default
