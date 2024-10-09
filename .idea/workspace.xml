@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1e209ba-9e2b-4543-99f4-fa76a5f811d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/linter.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.golangci.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/adapter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/https.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/mitm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/socket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/inbound/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/direct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/hysteria2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/hysteria2_nohy2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/mitm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/reject.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/shadowsocks.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/shadowsocksr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/snell.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/socks5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/trojan.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/vless.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/vmess.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/wireguard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/wireguard_gvsior.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outbound/wireguard_nogvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/fallback.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/loadbalance.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/relay.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/selector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/urltest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/outboundgroup/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/fetcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/healthcheck.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/provider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/subscription.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/provider/vehicle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/batch/batch.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/batch/batch_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cache/lrucache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cache/lrucache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cert/cert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cert/cert_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cert/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cmd/cmd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/cmd/cmd_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/convert/converter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/convert/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/encoding/base58/base58.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/encoding/base58/base58check.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/errors2/err.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/generics/list/list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/generics/list/list_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/murmur3/murmur.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/murmur3/murmur32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/net/bufconn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/net/io.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/net/relay.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/nnip/netip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/observable/iterable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/observable/observable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/observable/observable_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/observable/subscriber.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/picker/picker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/picker/picker_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pool/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pool/bufferv2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pool/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/queue/queue.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/rand/rand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/singledo/singledo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/singledo/singledo_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sniffer/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sniffer/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sniffer/packet_conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sniffer/sniffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sniffer/sniffer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sockopt/reuseaddr_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sockopt/reuseaddr_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/structure/structure.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/structure/structure_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/util/manipulation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/uuid/uuid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/auth/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dhcp/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dhcp/dhcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/bind_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/bind_fallback.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/bind_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/bind_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/bind_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/dialer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/mark_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/mark_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/mark_openbsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/mark_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/reuse_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/reuse_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/dialer/reuse_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/bpf/bpf_endian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/bpf/bpf_helper_defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/bpf/bpf_helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/bpf/redir.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/bpf/tc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/ebpf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/ebpf_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/ebpf_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/redir/auto_redirect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/redir/bpf_bpfeb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/redir/bpf_bpfeb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/redir/bpf_bpfel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/redir/bpf_bpfel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/tc/bpf_bpfeb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/tc/bpf_bpfeb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/tc/bpf_bpfel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/tc/bpf_bpfel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ebpf/tc/redirect_to_tun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/fakeip/cachefile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/fakeip/memory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/fakeip/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/fakeip/pool_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/attr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/geodata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/geodataproto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/memconservative/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/memconservative/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/memconservative/memc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/package_info.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/router/condition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/router/config.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/router/config.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/standard/standard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/ac_automaton_matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/domain_matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/full_matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/matchers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/mph_matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/package_info.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/strmatcher/strmatcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/geodata/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/iface/iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ipset/ipset_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ipset/ipset_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/mmdb/mmdb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/nat/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/pool/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/pool/pool_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/process/process_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/profile/cachefile/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/profile/profile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/resolver/defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/resolver/enhancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/resolver/local.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/resolver/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/builtin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/expr_builtin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/expr_matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/expr_matcher_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/matcher_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/proxy_providers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/rule_providers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/script/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/trie/domain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/trie/domain_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/trie/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initial.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/updateGeo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/adapters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/dns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/ebpf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/listener.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/metadata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/mitm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/path.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/provider/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/rewrite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/rule.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/rule_extra.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/script.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/tun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/tun_gvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/tun_nogvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/dns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/packetconn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/dhcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/doh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/enhancer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/filters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/local-server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/policy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/daemon/linux/clash.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/daemon/macos/org.eu.clashplus.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/daemon/windows/clash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/template/auto-redir-transparent-gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/template/local-client.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/template/redirect-to-tun-transparent-gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/executor/executor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/hub.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/configs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/configsGeo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/connections.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/ctxkeys.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/dns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/inbounds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/pprof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/provider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/proxies.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/rules.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/route/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/auth/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/autoredir/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/hack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/proxy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/upgrade.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/http/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/listener.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/mitm/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/mitm/proxy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/mitm/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/mixed/mixed.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_linux_386.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_linux_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/redir/tcp_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/socks/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/socks/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/socks/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/setsockopt_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/setsockopt_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/udp_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tproxy/udp_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/device.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/iobased/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/dll.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/dll_windows_386.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/dll_windows_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/dll_windows_arm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/dll_windows_arm64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/package_info.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/driver/wintun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard_gvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard_nogvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/device/tun/tun_wireguard_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/dns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/router_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/router_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/router_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/commons/router_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/adapter/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/nic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/option/option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/route.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/stack_nogvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/gvisor/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/mars.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/nat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/tcp_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/tcp_others.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/nat/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/icmp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/icmpv6.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/ip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/ipv6.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_amd64_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_arm64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_arm64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_arm64_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_compat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/tcpip_compat_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/mars/tcpip/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/ipstack/system/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tun/tun_adapter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tunnel/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tunnel/tcp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener/tunnel/udp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/level.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_gvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_nogvisor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_std.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/rewrite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/rewrite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitm/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/domain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/domain_keyword.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/domain_suffix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/final.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/geoip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/geosite.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/group.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/ipcidr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/ipset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/port.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/process.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/script.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/user_agent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.golangci.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/clash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/example.org-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/example.org.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/hysteria2-hop.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/hysteria2-obfs.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/hysteria2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/snell-http.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/snell-tls.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/snell.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-grpc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-http2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-quic-encrypt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-quic-obfs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-quic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan-ws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/trojan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vless-tls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vless-ws-0rtt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vless-ws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-grpc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-http.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-http2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-quic-encrypt-obfs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-quic-encrypt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-quic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-tls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-ws-0rtt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-ws-tls-zero.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-ws-tls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess-ws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/vmess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/wireguard.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dns_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/docker_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hysteria2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/listener_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/rule_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/snell_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ss_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/trojan_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/util_darwin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/util_other_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vless_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vmess_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/wireguard_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/crypto/aead.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/crypto/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/gun/gun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/h1/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/h2/h2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/dtls/dtls.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/header.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/srtp/srtp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/utp/utp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/wechat/wechat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/header/wireguard/wireguard.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/quic/quic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/core/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowaead/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowaead/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowaead/stream.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowstream/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowstream/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/shadowsocks/shadowstream/stream.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/simple-obfs/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/simple-obfs/tls.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/snell/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/snell/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/snell/snell.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/socks4/socks4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/socks5/socks5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/http_post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/http_simple.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/obfs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/plain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/random_head.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/obfs/tls1.2_ticket_auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_md5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_aes128_sha1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_a.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_chain_b.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/auth_sha1_v4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/base.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/origin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/protocol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/protocol/stream.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/tools/bufPool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/tools/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/ssr/tools/random.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/tls/tls.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/trojan/trojan.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/trojan/trojan_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/v2ray-plugin/mux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/v2ray-plugin/websocket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vless/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vless/vless.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/aead.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/chunk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/header.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/vmess.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/vmess/websocket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/bind_default.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/bind_std.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/bind_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/gso_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/gso_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/option_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/option_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/sticky_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/sticky_other.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport/wireguard/tun.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunnel/connection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunnel/mode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunnel/statistic/manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunnel/statistic/tracker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tunnel/tunnel.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../pkg/mod/golang.zx2c4.com/wireguard@v0.0.0-20231211153847-12269c276173/tun/tun_linux.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2n8utaKvvngPcWmGXWqe25fCGB9" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Volumes/code/go_work/src/quirktiva/bin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="quirktiva" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/yaling888/quirktiva" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="quirktiva" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <parameters value="-f $PROJECT_DIR$/bin/config.bk.yaml" />
+      <kind value="PACKAGE" />
+      <package value="github.com/yaling888/quirktiva" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="quirktiva" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1e209ba-9e2b-4543-99f4-fa76a5f811d8" name="Changes" comment="" />
+      <created>1728367240789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728367240789</updated>
+      <workItem from="1728367243122" duration="10708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/listener/tun/tun_adapter.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/listener/tun/tun_adapter.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
